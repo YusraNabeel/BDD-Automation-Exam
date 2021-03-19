@@ -1,0 +1,190 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3575569200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on the Techfios framework page",
+            "match": {
+              "location": "StepDefinition.User_on_the_Techfios_framework_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5524409600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforerun()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": "validate-techfios-functionality;",
+        "after": [
+          {
+            "result": {
+              "duration": 1696341200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepDefinition.Set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105634400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the button",
+            "match": {
+              "location": "StepDefinition.I_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185320600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The background color will change to sky blue",
+            "match": {
+              "location": "StepDefinition.The_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3549330900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on the Techfios framework page",
+            "match": {
+              "location": "StepDefinition.User_on_the_Techfios_framework_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2383661900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforerun()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "White Background Change",
+        "description": "",
+        "id": "validate-techfios-functionality;white-background-change",
+        "after": [
+          {
+            "result": {
+              "duration": 770926500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 100688700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "StepDefinition.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149529800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the button;",
+            "match": {
+              "location": "StepDefinition.i_click_on_the_white_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107557000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Techfios Functionality",
+    "description": "",
+    "id": "validate-techfios-functionality",
+    "keyword": "Feature",
+    "uri": "Features/Login.feature"
+  }
+]
